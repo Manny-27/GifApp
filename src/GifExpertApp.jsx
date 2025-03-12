@@ -1,11 +1,17 @@
 import { useState } from "react"
+import AddCategory from "./components/AddCategory"
+import GifGrid from "./components/GifGrid"
 
 export const GitExpertApp = () => {
 
-  const [category, setCategory] = useState(['Padre Ball','gintama'])
+  const [category, setCategory] = useState(['Padre Ball'])
   
-  const onAddCategory = () => {
-    setCategory( [...category, "Naruto"])
+  const onAddCategory = (newCategory) => {
+    if ( category.includes(newCategory) ) return;
+
+    // console.log(newCategory)
+    setCategory( [newCategory, ...category]);
+    
   }
 
   return (
@@ -14,16 +20,19 @@ export const GitExpertApp = () => {
         <h1>hola mundo</h1>
 
         {/* input o buscador de gif */}
-
-        {/* Salida y Resultados */}
+          <AddCategory 
+          onNewCategory={onAddCategory}
+          // setCategory={ setCategory} 
+          
+          />
         <button onClick={onAddCategory}>Agregar</button>
-        <ol>
           {
             category.map( category => {
-              return <li key={ category }>{category}</li>
+              return (
+                <GifGrid key={category} category={category}/>
+              )
             })
           }
-        </ol>
     </>
   )
 }
