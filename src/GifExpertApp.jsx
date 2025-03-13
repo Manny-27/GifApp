@@ -17,8 +17,7 @@ export const GitExpertApp = () => {
 
   return (
     <>
-        {/* Titulo */}
-        <h1>hola mundo</h1>
+        <h1>Gifs App</h1>
 
         {/* input o buscador de gif */}
           <AddCategory 
