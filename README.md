@@ -3,14 +3,14 @@
 Este es un proyecto creado con **Vite** y **React** que permite buscar y visualizar GIFs utilizando la API de [Giphy](https://giphy.com/). La aplicación está desplegada en **GitHub Pages**.
 
 ## 🚀 Demo en vivo
-Puedes ver la aplicación en funcionamiento aquí: [Enlace a GitHub Pages](#)
+Puedes ver la aplicación en funcionamiento aquí: [https://manny-27.github.io/GifApp/](#)
 
 ## 🛠️ Instalación y ejecución
 Sigue estos pasos para ejecutar el proyecto localmente:
 
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/Manny-27/GifApp.git
    ```
 2. Ingresa al directorio del proyecto:
    ```sh
