@@ -1,10 +1,11 @@
 import { useState } from "react"
-import AddCategory from "./components/AddCategory"
-import GifGrid from "./components/GifGrid"
+import {AddCategory, GifGrid} from './components'
+// import AddCategory from "./components/AddCategory"
+// import GifGrid from "./components/GifGrid"
 
 export const GitExpertApp = () => {
 
-  const [category, setCategory] = useState(['Padre Ball'])
+  const [category, setCategory] = useState(['Gintama'])
   
   const onAddCategory = (newCategory) => {
     if ( category.includes(newCategory) ) return;
@@ -25,7 +26,6 @@ export const GitExpertApp = () => {
           // setCategory={ setCategory} 
           
           />
-        <button onClick={onAddCategory}>Agregar</button>
           {
             category.map( category => {
               return (
