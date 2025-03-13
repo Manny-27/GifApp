@@ -1,6 +1,6 @@
 
 
-export default function GiftItem({key, title, url}) {
+export default function GiftItem({ title, url}) {
   return (
     <div className="card">
         <img src={ url } alt={title} />
