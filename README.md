@@ -1,12 +1,39 @@
-# React + Vite
+# GIF Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto creado con **Vite** y **React** que permite buscar y visualizar GIFs utilizando la API de [Giphy](https://giphy.com/). La aplicación está desplegada en **GitHub Pages**.
 
-Currently, two official plugins are available:
+## 🚀 Demo en vivo
+Puedes ver la aplicación en funcionamiento aquí: [Enlace a GitHub Pages](#)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Instalación y ejecución
+Sigue estos pasos para ejecutar el proyecto localmente:
 
-## Expanding the ESLint configuration
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   ```
+2. Ingresa al directorio del proyecto:
+   ```sh
+   cd tu-repositorio
+   ```
+3. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+4. Ejecuta el servidor de desarrollo:
+   ```sh
+   npm run dev
+   ```
+5. Abre tu navegador y accede a la URL proporcionada por Vite.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ Tecnologías utilizadas
+- **Vite**: Entorno de desarrollo rápido.
+- **React**: Biblioteca para construir la interfaz de usuario.
+- **Giphy API**: Para obtener los GIFs.
+- **GitHub Pages**: Para el despliegue de la aplicación.
+
+## 📄 Licencia
+Este proyecto está bajo la licencia MIT.
+
+
+
